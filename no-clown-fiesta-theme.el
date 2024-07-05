@@ -421,6 +421,10 @@
   (treemacs-git-modified-face    (:foreground blue))
   (treemacs-marked-file-face     (:inherit 'highlight))
 
+  ;; web-mode
+  (web-mode-current-element-highlight-face (:background 'unspecified :foreground blue :weight 'bold))
+  (web-mode-current-column-highlight-face  (:background dark-gray))
+
   ;; ERC
   (erc-notice-face    (:foreground purple))
   (erc-timestamp-face (:foreground medium-gray-blue))
