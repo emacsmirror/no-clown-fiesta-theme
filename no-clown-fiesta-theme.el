@@ -1,6 +1,6 @@
 ;;; no-clown-fiesta-theme.el --- Not-so-colorful-theme -*- lexical-binding: t -*-
 
-;; URL: https://github.com/ranmaru22/no-clown-fiesta-theme.el
+;; URL: https://codeberg.org/ranmaru22/no-clown-fiesta-theme.el
 ;; Author: ranmaru22
 ;; Version: 1.2
 ;; Package-Requires: ((emacs "26.1") (autothemer "0.2"))
