@@ -1,6 +1,6 @@
 ;;; no-clown-fiesta-theme.el --- Not-so-colorful-theme -*- lexical-binding: t -*-
 
-;; URL: https://github.com/ranmaru22/no-clown-fiesta-theme.el
+;; URL: https://codeberg.org/ranmaru22/no-clown-fiesta-theme.el
 ;; Author: ranmaru22
 ;; Version: 1.2
 ;; Package-Requires: ((emacs "26.1") (autothemer "0.2"))
@@ -420,6 +420,10 @@
   (treemacs-git-ignored-face     (:foreground gray))
   (treemacs-git-modified-face    (:foreground blue))
   (treemacs-marked-file-face     (:inherit 'highlight))
+
+  ;; web-mode
+  (web-mode-current-element-highlight-face (:background 'unspecified :foreground blue :weight 'bold))
+  (web-mode-current-column-highlight-face  (:background dark-gray))
 
   ;; ERC
   (erc-notice-face    (:foreground purple))
