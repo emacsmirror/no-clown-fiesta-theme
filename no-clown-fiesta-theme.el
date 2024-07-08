@@ -316,14 +316,21 @@
   (orderless-match-face-2 (:foreground magenta :weight 'bold))
   (orderless-match-face-3 (:foreground light-green :weight 'bold))
 
+  ;; Completion preview
+  (completion-preview        (:background 'unspecified :foreground medium-gray))
+  (completion-preview-common (:background 'unspecified :foreground medium-gray))
+  (completion-preview-exact  (:background 'unspecified :foreground hint-blue))
+
   ;; Corfu
-  (corfu-current     (:inherit 'highlight))
-  (corfu-bar         (:background medium-gray))
-  (corfu-border      (:background medium-gray))
-  (corfu-default     (:background alt-bg))
-  (corfu-annotations (:foreground medium-gray))
-  (corfu-deprecated  (:foreground medium-gray :strike-through t))
-  (corfu-echo        (:foreground medium-gray))
+  (corfu-current                            (:inherit 'highlight))
+  (corfu-bar                                (:background medium-gray))
+  (corfu-border                             (:background medium-gray))
+  (corfu-default                            (:background alt-bg))
+  (corfu-annotations                        (:foreground medium-gray))
+  (corfu-deprecated                         (:foreground medium-gray :strike-through t))
+  (corfu-echo                               (:foreground medium-gray))
+  (corfu-candidate-overlay-face             (:background 'unspecified :foreground medium-gray))
+  (corfu-candidate-overlay-face-exact-match (:background 'unspecified :foreground hint-blue))
 
   ;; Company (just for compatibility ... use Corfu instead)
   (company-tooltip                      (:background alt-bg))
