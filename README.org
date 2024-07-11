@@ -2,7 +2,7 @@
 
 [[https://img.shields.io/badge/License-GPL%20v3-green.svg]]
 [[https://img.shields.io/badge/Emacs-26%2B-d24b83.svg]]
-[[https://melpa.org/#/no-clown-fiesta-theme][file:https://melpa.org/packages/no-clown-fiesta-theme-badge.svg]]
+[[https://melpa.org/#/no-clown-fiesta-theme][https://melpa.org/packages/no-clown-fiesta-theme-badge.svg]]
 
 An attempt at a color scheme that does not look like a clown puked up the source
 code.
