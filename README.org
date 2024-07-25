@@ -25,9 +25,12 @@ Or you can use the ~use-package~ macro.
 
 #+begin_src elisp
   (use-package no-clown-fiesta-theme
+    :ensure t
     :config
     (load-theme 'no-clown-fiesta t))
   #+end_src
+
+To install manually, clone the repo and add the directory to your ~load-path~.
 
 ** Supported modes
 This theme lacks support for many modes because I basically only added support
@@ -48,9 +51,11 @@ So far, the following modes are directly supported:
 - flycheck
 - flymake
 - git-gutter
+- gnus
 - highlight-numbers
 - isearch
 - magit
+- mu4e
 - orderless
 - org-mode
 - rainbow-delimiters
